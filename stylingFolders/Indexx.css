@@ -1,0 +1,124 @@
+#header {
+    background-color: antiquewhite;
+    height: 170px;
+    border-bottom: 10px solid rgb(88, 19, 30);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100px 50px;
+    gap: 10px;
+  }
+  .logo {
+    border: 5px solid darkgray;
+    
+  }
+  #tab-grid {
+    background-color:darkslategrey;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr;
+    height:auto;
+  }
+  .cm {
+    background-color: burlywood;
+  }
+  #tab-grid > * {
+    border-left: 2px solid gray;
+  }
+
+  #opstatemt {
+    width: 1060px;
+    height: 1030px;
+    background-color: darkgray;
+  }
+
+  #opstatemt>h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(88, 19, 30);
+    font-weight: bolder;
+    position: relative;
+    left: 30px;
+    align-items: center;
+  }
+
+  #opstatemt>p {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+  }
+
+
+
+  .servicebox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 150px;
+    gap: 30px;
+    background-color: darkgray;
+  }
+
+  .oslab {
+    grid-column: span 3;
+    background-color:slategray;
+    text-align: center;
+    align-self: center;
+    font-size: 30px;
+  }
+
+  .servicebox li {
+    font-size: 20px;
+  }
+
+  .img-container{
+    display: flex;
+    width: 1060px;
+    margin: 10px;
+    background-color: darkslategrey;
+    animation:backwards;
+  
+  }
+
+.img-container > img{
+  width: 190px;
+  border-radius: 50%;
+}
+
+.contact-bloc {
+  width: 1060px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 4fr 1fr 4fr;
+  grid-template-rows: auto;
+  padding: 4px;
+  color: white;
+  
+}
+
+.nav-bloc {
+  background-color:#000011;
+  width: 1015px;
+  height: auto;
+  padding: 30px;
+  color: white;
+  display: flex;
+  gap: 80px;
+}
+
+.somed-ic > * {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.cprt {
+  width: auto;
+  height: auto;
+  background-color: black;
+  color: white;
+  font-size:x-small;
+}
+
+#test{
+  background-color:aquamarine ;
+}
+
+
